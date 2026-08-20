@@ -1160,4 +1160,23 @@ h3 { font-size: clamp(1.125rem, 1.6vw, 1.375rem); font-weight: 700; }
     text-overflow: ellipsis;
   }
 
+  .project-media {
+    aspect-ratio: 4 / 3; 
+  }
+
+  /* 2. Reduz o tamanho e o espaçamento dos botões flutuantes para não colidirem */
+  .project-tag {
+    top: 12px; 
+    left: 12px;
+    font-size: 0.65rem;
+    padding: 5px 10px;
+  }
+  
+  .project-featured-badge {
+    top: 12px; 
+    right: 12px;
+    font-size: 0.65rem;
+    padding: 5px 10px;
+  }
+
 }

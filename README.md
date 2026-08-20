@@ -64,31 +64,6 @@ apenas um servidor HTTP estático simples.
 
 ---
 
-## 🚀 Como rodar localmente
-
-Escolha **uma das 3 opções abaixo** (qualquer uma funciona em Windows, macOS e Linux):
-
-### Opção A — Live Server (extensão VS Code · mais prática)
-1. Abra a pasta do projeto no VS Code
-2. Instale a extensão **Live Server** (da Ritwick Dey)
-3. Clique com direito em `index.html` → **Open with Live Server**
-4. O navegador abre em `http://127.0.0.1:5500/` com auto reload
-
-### Opção B — Python (vem instalado em muitos PCs)
-```bash
-# Na raiz do projeto
-python -m http.server 8080
-```
-Acesse: http://localhost:8080/
-
-### Opção C — Node.js / npx
-```bash
-npx http-server -p 8080
-```
-Acesse: http://localhost:8080/
-
----
-
 ## 📤 Publicação · GitHub Pages + domínio personalizado
 
 ### 1) Subir para o GitHub
@@ -116,10 +91,10 @@ git push -u origin main
 2. **Build and deployment → Source**: **Deploy from a branch**
 3. **Branch**: `main` → `/ (root)` → **Save**
 4. Aguarda 30~60 segundos → GitHub libera o link temporário:
-   `https://<seu-usuario>.github.io/<nome-repositorio>/`
+   `https://<seu-usuario>.github.io.`
 
 ### 3) Domínio personalizado
-1. Comprou um domínio (ex.: `leandromendonca.dev.br`, `lmdev.com.br`)?
+1. Comprou um domínio (ex.: `leandromendonca.dev.br`)?
    Volte no menu **Pages**, campo **Custom domain**, digite o domínio → **Save**.
 2. No painel do seu registrador de domínios, crie os registros DNS de vínculo com o
    GitHub Pages conforme a **documentação oficial**:
